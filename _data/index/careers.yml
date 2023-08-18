@@ -10,7 +10,7 @@
     detail: Jan 2023
     i18n: company_a_date
   job:
-    detail: Freelance Security Researcher
+    detail: Bug Bounty Contributor
     i18n: company_a_job
   icon: fa-plus-square
   present: true
