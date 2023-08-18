@@ -2,12 +2,12 @@
 
 # Website settings
 title: PerennaSec
-description: Blog & Portfolio; Powered by Jekyll & GitHub Pages.
-keywords: PerennaSec,Perenna,blog,security,career,github,gh-pages
+description: Blog & Portfolio Powered by Jekyll & GitHub Pages.
+keywords: PerennaSec,Perenna,blog,security,cloud,automation,linux,python,bash,siem,suricata,splunk,career,github,gh-pages
 baseurl:  /home # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://perennasec.github.io/home  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /home/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
