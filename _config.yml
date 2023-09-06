@@ -11,7 +11,7 @@ img_path: /home/static/assets/img/blog  # url should be '/homepage/static/assets
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Spencer Treece  # Be used at blog posts' author.
+  name: Spencer Treece | Sec+  # Be used at blog posts' author.
   first_name: Spencer  # Be used at index page about me section.
   last_name: Treece  # Be used at index page about me section.
   avatar: /static/assets/img/landing/profpic200.jpg  # upload your avatar at directory and edit it.
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Chicago native, professional creative, proven leader, and task master. Currently studying Splunk, Azure, and Penetration Testing.  # Describe yourself.
+  desc: A determined leader, security researcher and system architect; a passion for problem solving, systems administration, network security, Linux, learning, data analytics, and automating tasks with Python. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
