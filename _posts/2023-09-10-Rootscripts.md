@@ -42,8 +42,7 @@ function pre_pkg_preinst() {
    local module_sig_key="$(grep -Po '(?<=CONFIG_MODULE_SIG_KEY=").*(?=")' "${KERNEL_DIR}/.config")"  
    module_sig_key="${module_sig_key:-certs/signing_key.pem}"  
    # Path to the key file or PKCS11 URI  
-   if [[ "${module_sig_key#pkcs11:}" == "${module_sig_key}" && "${module_sig_key#/}" == "${module_sig_  
-key}" ]]; then  
+   if [[ "${module_sig_key#pkcs11:}" == "${module_sig_key}" && "${module_sig_key#/}" == "${module_sig_key}" ]]; then  
        local key_path="${KERNEL_DIR}/${module_sig_key}"  
    else  
        local key_path="${module_sig_key}"  
@@ -51,8 +50,7 @@ key}" ]]; then
    # Certificate path  
    local cert_path="${KERNEL_DIR}/certs/signing_key.x509"  
    # Sign all installed modules before merging.  
-   find "${D%/}/${INSDESTTREE#/}/" -name "*.ko" -exec "${KERNEL_DIR}/scripts/sign-file" "${module_sig_  
-hash}" "${key_path}" "${cert_path}" '{}' \;  
+   find "${D%/}/${INSDESTTREE#/}/" -name "*.ko" -exec "${KERNEL_DIR}/scripts/sign-file" "${module_sig_hash}" "${key_path}" "${cert_path}" '{}' \;  
    rm -v /usr/src/linux/certs/signing_key.{pem,x509}  
 }
 ```
