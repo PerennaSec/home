@@ -16,7 +16,8 @@ icon: icon-html
 
 The beauty of finding a SQL Injection vulnerability in the wild is matched only by the brilliance of a well-written exploit script. Even in one's own security lab, it's an exciting pursuit; to be able to so delicately extract information by speaking the language of the database feels classically hacker. Indeed, it's one of the industry's most well-established, almost vintage, vulnerabilities. 
 
-<img src="python_sqli/sqli.jpg">
+<!-- ![edit]({{ site.img_path }}/python_sqli/sqli.jpg) -->
+<img src="{{ site.img_path }}/python_sqli/sqli.jpg" width="100%" height="75%">
 
 This post does not aim to be one's SQL Injection primer; for the purposes of this post it's best to know that a blind SQL injection is one for which the vulnerability's code only allows boolean return values. When interfacing with a classic SQL Injection vulnerability, an attacker can typically expect their requested data to be returned intact -- for example, a password will be returned as 'password' (or some hashed text, ideally). With Blind SQL Injection vulnerabilities, output is returned from the exploited web application via boolean queries. An attacker will pose a series of queries to an application that return either a yes or a no -- a T/F response. Values are returned one character at a time, whether the attacker seeks usernames, passwords, or other valuable information. For this reason, these vulnerabilities are referred to as Blind Injections, as carrying out these attacks often feels as though one is progressing slowly -- blindly -- through a database. 
 
@@ -87,4 +88,5 @@ After navigating a set of disqualifying conditionals that first check the validi
 
 Underneath all this query, logic, and iteration lies a simple and robust Python tooling that allows for efficient diagnosis and exploitation of suspected vulnerabilities. For proof-of-concept purposes, a collection of valid user id's can be collected, along with their associated password hashes. One of Python's great strengths can be seen in its flexibility and dynamism while interfacing with web applications, networking architectures, and especially other programming languages. These simple SQL Injection PoC's simply scratch the surface of what can be accomplished.
 
-<img src="python_sqli/sqli2.jpg">
+<!-- ![edit]({{ site.img_path }}/python_sqli/sqli2.jpg) -->
+<img src="{{ site.img_path }}/python_sqli/sqli2.jpg" width ="100%" height="75%">
