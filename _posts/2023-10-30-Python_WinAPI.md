@@ -20,7 +20,8 @@ One of the most exhilarating aspects of diving deeper into Python is learning ho
 
 Given the Windows kernel's reliance on C, the Microsoft Developer's Network (MSDN) holds extensive documentation for all its API functions. Everything from memory interactions, process creation and manipulation, debugging functions, and more can be found within the MSDN's notes. To elaborate, the documentation details each function's syntax, required and optional parameters, and return values, as well as details and remarks specific to a function's purpose. See the documentation for the VirtualAllocEx function (https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) for a neat overview. One will find a defining function syntax, as well as explanations of each parameter's associated values and required data types. The manual nature of C makes it necessary to account for a functions return type as well, especially as one will require the output of one function to be included within the input of another. 
 
-![[Pasted image 20231030140217.png]]
+<!-- ![edit]({{ site.img_path }}/Python_winAPI/msdn.png) -->
+<img src="{{ site.img_path }}/Python_WinAPI/msdn.png" width="75%">
 
 For those of you keeping score at home, this means that *the Python programming language can be used to make system calls to the operating system's kernel,* either through interactions with the Windows API, undocumented Native API calls, or via direct system calls to the kernel itself. As one progresses into more advanced topics such as EDR/AV evasion, it becomes necessary to manipulate processes and executions at increasingly lower levels. Even Assembly language will make an appearance, being used to set values in the register & stack that will later be executed by a direct syscall made in kernel mode. 
 
