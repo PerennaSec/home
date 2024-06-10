@@ -1,30 +1,30 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: HackerOne
+    detail: BerryDunn
     i18n: company_a
   desc:
-    detail: Perform Web Application Security Assessments based on OWASP Top 10 and Bug Hunting Methodologies. Document, organize, and present findings in succinct, informative reports. Apply experience, knowledge, and dynamic thinking to ensure clients are thoroughly informed of and protected against an increasingly active threat environment.
+    detail: Provide active assistance and consultation services to clients, helping to assure and remediate their security posture. Work alongside teammates within the IT Security Practice in order to perform security and vulnerability assessments against client-provided scope. Extensively document and organize findings. Arrange findings in reports featuring executive summaries and technical walkthroughs of vulnerabilities
     i18n: company_a_desc
   date:
-    detail: Jan 2023
+    detail: Dec 2023
     i18n: company_a_date
   job:
-    detail: Bug Bounty Contributor
+    detail: Cybersecurity Consultant
     i18n: company_a_job
   icon: fa-plus-square
   present: true
-
+  
 - name:
-    detail: Under Canvas
+    detail: HackerOne
     i18n: company_b
   desc:
-    detail: Creative Director of menu development and recipe testing, including a daily-rotating specials menu. Built and managed yearly onboarding for seasonal new hires. Responsible for weekly inventory management and ordering.
+    detail: Perform Web Application Security Assessments based on OWASP Top 10 and Bug Hunting Methodologies. Document, organize, and present findings in succinct, informative reports. Apply experience, knowledge, and dynamic thinking to ensure clients are thoroughly informed of and protected against an increasingly active threat environment.
     i18n: company_b_desc
   date:
-    detail: Apr 2019
+    detail: Jan 2023
     i18n: company_b_date
   job:
-    detail: Chef De Cuisine
+    detail: Bug Bounty Contributor
     i18n: company_b_job
   icon: fa-plus-square
