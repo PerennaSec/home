@@ -28,9 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Chicago native, professional creative, proven leader, and task master. Currently driving towards Azure security competency. 
-  After a decade in the Culinary Industry, including six years of leadership, I made a pivot to the burgeoning field of Cybersecurity. One summer and four certifications later, I was deeply fortunate to land a dream position within the IT Security Practice at Berry Dunn. Now pursuing my passion and actively assisting clients in evaluating and remediating their security posture! 
-  Reach me at perennasec@tutanota.com, or simply feel free to message me. I am a lifelong learner, a voracious and driven operator, and a firm believer in the merits of work, discipline, and devotion! # Describe yourself.
+  desc: Chicago native, professional creative, proven leader, and task master. Currently driving towards Azure security competency. After a decade in the Culinary Industry, including six years of leadership, I made a pivot to the burgeoning field of Cybersecurity. One summer and four certifications later, I was deeply fortunate to land a dream position within the IT Security Practice at Berry Dunn. Now pursuing my passion and actively assisting clients in evaluating and remediating their security posture! Reach me at perennasec@tutanota.com, or simply feel free to message me. I am a lifelong learner, a voracious and driven operator, and a firm believer in the merits of work, discipline, and devotion! # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
